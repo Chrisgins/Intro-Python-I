@@ -1,6 +1,11 @@
 # Experiment with scopes in Python.
 # Good reading: https://www.programiz.com/python-programming/global-local-nonlocal-variables
 
+
+# scopes - is the area in which a variable is defined
+# supports global, but must be explicitly defined 'global variable'
+# if scope is declared in a function, it is by default 'local'
+
 # When you use a variable in a function, it's local in scope to the function.
 x = 12
 

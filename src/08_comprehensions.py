@@ -8,6 +8,8 @@ Take a look at https://docs.python.org/3/tutorial/datastructures.html#list-compr
 for more info regarding list comprehensions.
 """
 
+#list comprehension - faster(more optimezed than looping) - creates list based on existing lists
+
 # Write a list comprehension to produce the array [1, 2, 3, 4, 5]
 
 y = [i for i in range(1,6)]

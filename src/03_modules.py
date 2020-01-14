@@ -11,6 +11,9 @@ import sys
 # Print out the command line arguments in sys.argv, one per line:
 # YOUR CODE HERE
 
+#argv - the list of commandline arguents passed to python.basically
+#an array holding the command line arguements
+
 print ('This is a script'), sys.argv[0]
 print('This is for the number of arguments - I think'), len(sys.argv)
 print('This is for stringy things'), str(sys.argv)

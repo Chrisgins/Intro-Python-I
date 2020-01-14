@@ -55,6 +55,9 @@ print(f3(8))     # Should print 9
 
 # YOUR CODE HERE
 
+#args - arguments use with *arg
+#kwargs -kwargs are used with **kwargs
+
 def f4(**kwargs):
     for k, v in kwargs.items():
         print(f'key: {k}, value: {v}')
