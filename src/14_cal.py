@@ -25,7 +25,7 @@ from datetime import datetime
 
 userInput = input(
     "Please enter a comma-separated month, date, year (ex: 01,13,2020): ").split(',')
-
+print(userInput)
 
 def user_input(*dates):
     if len(dates) == 1 and str(dates[0]) != '':
